@@ -33,23 +33,43 @@ Best Markdown cheat sheet ever made with HTML
 
 
 
-<!-- Headings -->
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Headings 
+
+<!--HTML heading-->
+<h1> heading 1 </h1>
+<h2> heading 2</h2>
+<h3> heading 3</h3>
+<h4> heading 4</h4>
+<h5> heading 5</h5>
+<h6> heading 6</h6>
+
+<!--Markdown heading -->
+# heading 1
+## heading 2
+### heading 3
+#### heading 4
+##### heading 5
+###### heading 
+
+
 
 <!-- Italics -->
-*This text* is italic
 
-_This text_ is italic
+<!--HTML Italics -->
+This is a <i>Italic </i> text 
+<!--Markdown Italics -->
+This is a *Italic* text 
 
 <!-- Strong -->
 **This text** is italic
 
 __This text__ is italic
+
+<!--HTML bold -->
+This is a <b>bold </b> text 
+
+<!--Markdown Bold -->
+This is a **bold** text 
 
 <!-- Blockquote -->
 > This is a quote
@@ -57,7 +77,12 @@ __This text__ is italic
 <!-- Strikethrough -->
 ~~This text~~ is strikethrough
 
-<!-- Horizontal Rule -->
+# Horizontal Rule
+
+<!--HTML  Horizontal Rule-->
+
+<hr>
+<!--Markdown Horizontal Rule-->
 
 ---
 ___
@@ -69,23 +94,49 @@ ___
 [The Terminal Boy](https://www.youtube.com/c/TheTerminalBoy)
 
 
-<!-- UL -->
-* Item 1
-* Item 2
-* Item 3
-  * Nested Item 1
-  * Nested Item 2
+ # List (order unorder )
+ <p> order list </p>
+<!--HTML  OL-->
+<ol>
+<li>this is one</li>
+<li>this is two</li>
+<li>this is three</li>
+</ol>
 
-<!-- OL -->
-1. Item 1
-1. Item 2
-1. Item 3
+<!--Markdown OL-->
+
+ - this is one 
+ - this is two 
+ - this is three
+
+ <p> Un order list </p>
+<!--HTML  UL-->
+<ul>
+<li>this is one</li>
+<li>this is two</li>
+<li>this is three</li>
+</ul>
+
+<!--Markdown UL-->
+
+- Item 1
+- item 2
+- Item 3
+  - Nested item 4
+  - Nested Item 5
 
 <!-- Inline Code Block -->
 `<p>This is a paragraph</p>`
 
 <!-- Images -->
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
+# Images
+
+<!--HTML  Images-->
+<img src="https://i.pinimg.com/originals/73/a1/ec/73a1ecc7f59840a47537c012bc23d685.png"> 
+
+<!--Markdown img-->
+![subscribe](https://i.pinimg.com/originals/73/a1/ec/73a1ecc7f59840a47537c012bc23d685.png)
+
 
 <!-- Github Markdown -->
 
@@ -108,10 +159,33 @@ ___
 ```
 
 <!-- Tables -->
-| Name     | Email          |
-| -------- | -------------- |
-| John Doe | john@gmail.com |
-| Jane Doe | jane@gmail.com |
+# Table 
+<!--HTML  table-->
+<p> Table </p>
+<table border="1">
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<tr>
+</table>
+
+<br>
+<!--Markdown table-->
+
+| name | ID |
+|---|----|
+|rahul| 2000 |
+|rahul| 2000 | 
+|rahul| 2000 | 
+
+
+
 
 <!-- Task List -->
 * [x] Task 1
@@ -164,6 +238,8 @@ Alice->John: Yes... John, how are you?
 ```
 
 And this will produce a flow chart:
+
+[Visit Doc](https://rich-iannone.github.io/DiagrammeR/mermaid.html)
 
 ```mermaid
 graph LR
